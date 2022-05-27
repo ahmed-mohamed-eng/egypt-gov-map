@@ -6,7 +6,6 @@ const Home: NextPage = () => {
   return (
     <Box>
       <Flex as="header"></Flex>
-      <Flex as="nav"></Flex>
       <Flex as="main"></Flex>
       <Flex as="footer"></Flex>
     </Box>
