@@ -1,15 +1,18 @@
+import { VStack } from "@chakra-ui/react";
+
 import type { NextPage } from "next";
+import Header from "../components/Header";
 
 // Custom Components
-import Header from "../components/Header";
 import PageContainer from "../components/PageContainer";
-import MainContentArea from "../components/MainContentArea";
 
 const Home: NextPage = () => {
   return (
     <PageContainer>
-      <Header headerTitle="اقاليم مصر" />
-      <MainContentArea />
+      <Header headerTitle="اقاليم مصر"/>
+      <VStack as="main">
+
+      </VStack>
     </PageContainer>
   );
 };

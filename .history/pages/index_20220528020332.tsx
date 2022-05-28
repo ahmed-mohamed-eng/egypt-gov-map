@@ -8,8 +8,8 @@ import MainContentArea from "../components/MainContentArea";
 const Home: NextPage = () => {
   return (
     <PageContainer>
-      <Header headerTitle="اقاليم مصر" />
-      <MainContentArea />
+      <Header headerTitle="اقاليم مصر"/>
+      <MainContentArea/>
     </PageContainer>
   );
 };

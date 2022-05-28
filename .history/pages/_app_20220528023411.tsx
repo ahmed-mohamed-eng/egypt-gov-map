@@ -6,13 +6,13 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
   fonts: {
-    heading: `"Aref Ruqaa" ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif`,
+    arabic: `"Aref Ruqaa" ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif`,
   }
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider>
       <Component {...pageProps} />
     </ChakraProvider>
   );

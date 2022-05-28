@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,5 +17,4 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: "Aref Ruqaa" ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
