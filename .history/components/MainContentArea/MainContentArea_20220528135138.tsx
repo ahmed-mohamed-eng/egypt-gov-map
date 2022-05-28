@@ -9,7 +9,6 @@ export const MainContentArea = () => {
     <VStack
       as="main"
       w="full"
-      p="0.5rem"
       spacing="1rem"
       borderWidth="medium"
       borderColor="gray.400"

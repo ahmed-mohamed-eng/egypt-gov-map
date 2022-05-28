@@ -15,7 +15,15 @@ export const MainContentArea = () => {
       borderColor="gray.400"
     >
       <MapArea />
-      <QuickNavigationArea />
+      <QuickNavigationArea
+        breadcrumbItems={[
+          {
+            text: "اقاليم مصر",
+            url: "#",
+          },
+          
+        ]}
+      />
     </VStack>
   );
 };

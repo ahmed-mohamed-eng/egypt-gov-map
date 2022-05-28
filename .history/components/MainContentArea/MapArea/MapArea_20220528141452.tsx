@@ -6,13 +6,7 @@ import MapInfoDisplayedLinks from "./MapInfoDisplayedLinks";
 
 export const MapArea = () => {
   return (
-    <VStack
-      borderWidth="thin"
-      borderColor="red.500"
-      p="0.5rem"
-      w="full"
-      spacing="0.5rem"
-    >
+    <VStack borderWidth="thin" borderColor="red.500" w="full" spacing="0.5rem">
       <MapImage />
       <MapInfoDisplayedLinks
         breadcrumbItems={[
