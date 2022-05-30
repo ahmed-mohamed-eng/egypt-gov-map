@@ -16,7 +16,7 @@ export const MapInfoDisplayedLinks = (props: MapInfoDisplayedLinksProps) => {
     return (
       <BreadcrumbItem key={uuidV4()}>
         <BreadcrumbLink
-          maxW="fit-content"
+          w="2rem"
           _hover={{
             textDecoration: "none",
             fontWeight: "600",

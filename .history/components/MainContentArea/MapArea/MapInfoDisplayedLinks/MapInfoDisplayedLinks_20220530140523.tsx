@@ -15,23 +15,12 @@ export const MapInfoDisplayedLinks = (props: MapInfoDisplayedLinksProps) => {
   const breadcrumbItems = props.breadcrumbItems.map((item) => {
     return (
       <BreadcrumbItem key={uuidV4()}>
-        <BreadcrumbLink
-          maxW="fit-content"
-          _hover={{
-            textDecoration: "none",
-            fontWeight: "600",
-          }}
-          href={item.url}
-        >
+        <BreadcrumbLink href={item.url}>
           {item.text}
         </BreadcrumbLink>
       </BreadcrumbItem>
     );
   });
 
-  return (
-    <Breadcrumb spacing="1px" separator="," w="full">
-      {breadcrumbItems}
-    </Breadcrumb>
-  );
+  return <Breadcrumb spacing="1px" separator="," w="full">{breadcrumbItems}</Breadcrumb>;
 };
