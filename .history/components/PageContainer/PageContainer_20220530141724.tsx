@@ -7,7 +7,6 @@ export const PageContainer = (props: any) => {
     <Flex backgroundImage={`url(/images/backgroundImage.png)`}>
       <Center w="full" h="full" py="1.5rem">
         <VStack
-          bgColor="white"
           width={["90vw"]}
           minH="95vh"
           boxShadow="0 0 5px #CACACA"
