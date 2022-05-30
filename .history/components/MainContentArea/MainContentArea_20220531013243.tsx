@@ -8,17 +8,19 @@ import QuickNavigationArea from "./QuickNavigationArea";
 
 // Interfaces.
 import { MapAreaProps } from "./MapArea/MapArea";
+import { SearchBoxProps } from "./SearchBox/SearchBox";
 import { QuickNavigationAreaProps } from "./QuickNavigationArea/QuickNavigationArea";
 
 export interface MainContentAreaProps
   extends QuickNavigationAreaProps,
+    SearchBoxProps,
     MapAreaProps {}
 
 export const MainContentArea = (props: MainContentAreaProps) => {
   return (
     <VStack as="main" w="full" p="0.5rem" spacing="1rem" flex="14">
       <MapArea mapAreas={props.mapAreas} mapImageSrc={props.mapImageSrc} />
-      <SearchBox placeholderTxt="للبحث, أدخل الكلمة ثم إضغط إنتر" />
+      <SearchBox placeholderTxt={props.placeholderTxt} />
       <StripeSeparator />
       <QuickNavigationArea
         list={props.list}

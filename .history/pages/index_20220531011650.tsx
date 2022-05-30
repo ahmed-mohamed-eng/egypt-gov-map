@@ -7,20 +7,15 @@ import MainContentArea from "../components/MainContentArea";
 
 // Constants.
 import provincesList from "../constants/provincesList";
-import mainAreaCoords from "../constants/provinces/mainArea";
-
-// Images Sources.
-import mainAreaImage from "../images/Egypt_Provinces.jpg";
 
 const Home: NextPage = () => {
   return (
     <PageContainer>
       <Header headerTitle="الخرائط الجغرافية" />
       <MainContentArea
-        list={provincesList}
-        mapAreas={mainAreaCoords}
-        mapImageSrc={mainAreaImage.src}
         quickNavTitle="اقاليم مصر"
+        placeholderTxt="للبحث, أدخل الكلمة ثم إضغط إنتر"
+        list={provincesList}
       />
     </PageContainer>
   );

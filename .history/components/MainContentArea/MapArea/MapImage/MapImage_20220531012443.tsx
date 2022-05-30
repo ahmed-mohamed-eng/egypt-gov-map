@@ -1,30 +1,17 @@
-import { v4 as uuid } from "uuid";
+import React from "react";
 
 import { Flex, Image } from "@chakra-ui/react";
 
 export type MapArea = {
-  areaElCoords: string;
-  areaElUrl: string;
+  coords: string;
+  url: string;
 };
-
 export interface MapImageProps {
   mapImageSrc: string;
   mapAreas: Array<MapArea>;
 }
 
 export const MapImage = (props: MapImageProps) => {
-  const areasOnImage = props.mapAreas.map((area) => {
-    return (
-      <area
-        key={uuid()}
-        target="_self"
-        shape="poly"
-        coords={area.areaElCoords}
-        href={area.areaElUrl}
-      />
-    );
-  });
-
   return (
     <Flex w="full">
       <Image
@@ -33,7 +20,7 @@ export const MapImage = (props: MapImageProps) => {
         src={props.mapImageSrc}
         alt="Egypt Province Map"
       />
-      <map name="mapinfo">{areasOnImage}</map>
+      <map name="mapinfo"></map>
     </Flex>
   );
 };

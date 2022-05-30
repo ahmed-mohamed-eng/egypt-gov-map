@@ -8,6 +8,7 @@ import QuickNavigationArea from "./QuickNavigationArea";
 
 // Interfaces.
 import { MapAreaProps } from "./MapArea/MapArea";
+import { SearchBoxProps } from "./SearchBox/SearchBox";
 import { QuickNavigationAreaProps } from "./QuickNavigationArea/QuickNavigationArea";
 
 export interface MainContentAreaProps

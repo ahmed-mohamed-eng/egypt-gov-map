@@ -6,7 +6,6 @@ export type MapArea = {
   areaElCoords: string;
   areaElUrl: string;
 };
-
 export interface MapImageProps {
   mapImageSrc: string;
   mapAreas: Array<MapArea>;
