@@ -23,7 +23,28 @@ export const QuickNavigationArea = (props: QuickNavigationAreaProps) => {
       >
         {props.quickNavTitle}
       </Heading>
-      <CitiesList list={props.list} />
+      <CitiesList
+        list={[
+          {
+            provinceName: "القاهرة",
+            url: "https://www.google.com",
+            childItems: [
+              {
+                cityName: "القاهرة",
+                url: "https://www.google.com/",
+              },
+              {
+                cityName: "القاهرة",
+                url: "https://www.google.com/",
+              },
+              {
+                cityName: "القاهرة",
+                url: "https://www.google.com/",
+              },
+            ],
+          },
+        ]}
+      />
     </VStack>
   );
 };

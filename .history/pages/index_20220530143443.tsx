@@ -5,9 +5,6 @@ import Header from "../components/Header";
 import PageContainer from "../components/PageContainer";
 import MainContentArea from "../components/MainContentArea";
 
-// Constants
-import provincesList from "../constants/provincesList";
-
 const Home: NextPage = () => {
   return (
     <PageContainer>
@@ -15,7 +12,6 @@ const Home: NextPage = () => {
       <MainContentArea
         quickNavTitle="اقاليم مصر"
         placeholderTxt="للبحث, أدخل الكلمة ثم إضغط إنتر"
-        list={provincesList}
       />
     </PageContainer>
   );

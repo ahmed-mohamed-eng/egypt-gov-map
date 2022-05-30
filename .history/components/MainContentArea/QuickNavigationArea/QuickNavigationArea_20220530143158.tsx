@@ -23,7 +23,9 @@ export const QuickNavigationArea = (props: QuickNavigationAreaProps) => {
       >
         {props.quickNavTitle}
       </Heading>
-      <CitiesList list={props.list} />
+      <CitiesList
+        list={props.list}
+      />
     </VStack>
   );
 };
