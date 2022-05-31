@@ -32,7 +32,7 @@ export const MapImage = (props: MapImageProps) => {
   };
 
   return (
-    <Flex w="fit-content">
+    <Flex w="full">
       <ImageMapper src={props.mapImageSrc} width={235} height={204.25} map={MAP} />
 
       {/* <Image

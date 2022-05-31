@@ -8,7 +8,7 @@ export const PageContainer = (props: any) => {
       <Center w="full" h="full" py="1.5rem">
         <VStack
           bgColor="white"
-          width={["80vw"]}
+          width={["78vw"]}
           minH="95vh"
           boxShadow="0 0 5px #CACACA"
           py="1rem"
