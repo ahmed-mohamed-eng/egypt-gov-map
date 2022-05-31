@@ -9,7 +9,7 @@ const mainAreaCoords: Array<MapAreas> = [
       136, 32, 139, 28, 145, 27, 144, 23, 141, 19, 135, 21, 126, 18,
     ],
     active: true,
-    id: "NorthDelta",
+    preFillColor: "#ff0000",
   },
   {
     shape: "poly",
@@ -21,7 +21,6 @@ const mainAreaCoords: Array<MapAreas> = [
       171, 27, 167, 26, 155, 28,
     ],
     active: true,
-    id: "Sina",
   },
   {
     shape: "poly",
@@ -33,7 +32,6 @@ const mainAreaCoords: Array<MapAreas> = [
       118, 40, 121, 39, 120, 29, 112, 22,
     ],
     active: true,
-    id: "Alex",
   },
   {
     shape: "poly",
@@ -44,7 +42,6 @@ const mainAreaCoords: Array<MapAreas> = [
       101, 74, 103, 66, 111, 59, 120, 53, 125, 53, 127, 58, 132, 64, 132, 65,
     ],
     active: true,
-    id: "GreatCairo",
   },
   {
     shape: "poly",
@@ -56,7 +53,6 @@ const mainAreaCoords: Array<MapAreas> = [
       146, 90,
     ],
     active: true,
-    id: "NorthSaaid",
   },
   {
     shape: "poly",
@@ -78,7 +74,6 @@ const mainAreaCoords: Array<MapAreas> = [
       191, 227, 191, 228, 193, 230, 194, 233, 197, 233, 200,
     ],
     active: true,
-    id: "SouthSaaid",
   },
   {
     shape: "poly",
@@ -91,7 +86,6 @@ const mainAreaCoords: Array<MapAreas> = [
       109, 94, 72, 92,
     ],
     active: true,
-    id:"Assuit"
   },
 ];
 

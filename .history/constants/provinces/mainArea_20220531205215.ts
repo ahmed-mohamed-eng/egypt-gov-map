@@ -91,7 +91,8 @@ const mainAreaCoords: Array<MapAreas> = [
       109, 94, 72, 92,
     ],
     active: true,
-    id:"Assuit"
+    preFillColor: "#ff0000",
+
   },
 ];
 

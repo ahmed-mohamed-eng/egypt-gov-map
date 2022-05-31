@@ -47,7 +47,7 @@ const provincesList: Array<province> = [
   },
   {
     provinceName: "اقليم الاسكندرية",
-    url: "/provinces/alexandra",
+    url: "#",
     childItems: [
       {
         cityName: "محافظة مطروح",

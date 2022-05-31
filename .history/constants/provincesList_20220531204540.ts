@@ -47,7 +47,7 @@ const provincesList: Array<province> = [
   },
   {
     provinceName: "اقليم الاسكندرية",
-    url: "/provinces/alexandra",
+    url: "#",
     childItems: [
       {
         cityName: "محافظة مطروح",
@@ -138,15 +138,19 @@ const provincesList: Array<province> = [
     ],
   },
   {
-    provinceName: "اقليم اسيوط",
+    provinceName: "اقليم القاهرة الكبرى",
     url: "#",
     childItems: [
       {
-        cityName: "محافظة اسيوط",
+        cityName: "محافظة الجيزة",
         url: "#",
       },
       {
-        cityName: "محافظة الوادي الجديد",
+        cityName: "محافظة القليوبية",
+        url: "#",
+      },
+      {
+        cityName: "محافظة القاهرة",
         url: "#",
       },
     ],

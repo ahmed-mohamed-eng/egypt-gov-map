@@ -56,7 +56,7 @@ const mainAreaCoords: Array<MapAreas> = [
       146, 90,
     ],
     active: true,
-    id: "NorthSaaid",
+    preFillColor: "#ff0000",
   },
   {
     shape: "poly",
@@ -78,7 +78,6 @@ const mainAreaCoords: Array<MapAreas> = [
       191, 227, 191, 228, 193, 230, 194, 233, 197, 233, 200,
     ],
     active: true,
-    id: "SouthSaaid",
   },
   {
     shape: "poly",
@@ -91,7 +90,6 @@ const mainAreaCoords: Array<MapAreas> = [
       109, 94, 72, 92,
     ],
     active: true,
-    id:"Assuit"
   },
 ];
 

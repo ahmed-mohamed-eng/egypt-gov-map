@@ -47,7 +47,7 @@ const provincesList: Array<province> = [
   },
   {
     provinceName: "اقليم الاسكندرية",
-    url: "/provinces/alexandra",
+    url: "#",
     childItems: [
       {
         cityName: "محافظة مطروح",
@@ -64,89 +64,73 @@ const provincesList: Array<province> = [
     ],
   },
   {
-    provinceName: "اقليم شمال الصعيد",
+    provinceName: "اقليم القاهرة الكبرى",
     url: "#",
     childItems: [
       {
-        cityName: "محافظة بني سويف",
+        cityName: "محافظة الجيزة",
         url: "#",
       },
       {
-        cityName: "محافظة الفيوم",
+        cityName: "محافظة القليوبية",
         url: "#",
       },
       {
-        cityName: "محافظة المنيا",
+        cityName: "محافظة القاهرة",
         url: "#",
       },
     ],
   },
   {
-    provinceName: "اقليم جنوب الصعيد",
+    provinceName: "اقليم القاهرة الكبرى",
     url: "#",
     childItems: [
       {
-        cityName: "محافظة قنا",
+        cityName: "محافظة الجيزة",
         url: "#",
       },
       {
-        cityName: "محافظة الاقصر",
+        cityName: "محافظة القليوبية",
         url: "#",
       },
       {
-        cityName: "محافظة اسوان",
-        url: "#",
-      },
-      {
-        cityName: "محافظة سوهاج",
-        url: "#",
-      },
-      {
-        cityName: "محافظة البحر الاحمر",
+        cityName: "محافظة القاهرة",
         url: "#",
       },
     ],
   },
   {
-    provinceName: "اقليم قناه السويس",
+    provinceName: "اقليم القاهرة الكبرى",
     url: "#",
     childItems: [
       {
-        cityName: "محافظة الشرقية",
+        cityName: "محافظة الجيزة",
         url: "#",
       },
       {
-        cityName: "محافظة بور سعيد",
+        cityName: "محافظة القليوبية",
         url: "#",
       },
       {
-        cityName: "محافظة شمال سيناء",
-        url: "#",
-      },
-      {
-        cityName: "محافظة جنوب سيناء",
-        url: "#",
-      },
-      {
-        cityName: "محافظة الاسماعيلية",
-        url: "#",
-      },
-      {
-        cityName: "محافظة السويس",
+        cityName: "محافظة القاهرة",
         url: "#",
       },
     ],
   },
   {
-    provinceName: "اقليم اسيوط",
+    provinceName: "اقليم القاهرة الكبرى",
     url: "#",
     childItems: [
       {
-        cityName: "محافظة اسيوط",
+        cityName: "محافظة الجيزة",
         url: "#",
       },
       {
-        cityName: "محافظة الوادي الجديد",
+        cityName: "محافظة القليوبية",
+        url: "#",
+      },
+      {
+        cityName: "محافظة القاهرة",
         url: "#",
       },
     ],

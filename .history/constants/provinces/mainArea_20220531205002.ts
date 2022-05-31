@@ -33,7 +33,7 @@ const mainAreaCoords: Array<MapAreas> = [
       118, 40, 121, 39, 120, 29, 112, 22,
     ],
     active: true,
-    id: "Alex",
+    id:"Alex",
   },
   {
     shape: "poly",
@@ -44,7 +44,6 @@ const mainAreaCoords: Array<MapAreas> = [
       101, 74, 103, 66, 111, 59, 120, 53, 125, 53, 127, 58, 132, 64, 132, 65,
     ],
     active: true,
-    id: "GreatCairo",
   },
   {
     shape: "poly",
@@ -56,7 +55,6 @@ const mainAreaCoords: Array<MapAreas> = [
       146, 90,
     ],
     active: true,
-    id: "NorthSaaid",
   },
   {
     shape: "poly",
@@ -78,7 +76,6 @@ const mainAreaCoords: Array<MapAreas> = [
       191, 227, 191, 228, 193, 230, 194, 233, 197, 233, 200,
     ],
     active: true,
-    id: "SouthSaaid",
   },
   {
     shape: "poly",
@@ -91,7 +88,6 @@ const mainAreaCoords: Array<MapAreas> = [
       109, 94, 72, 92,
     ],
     active: true,
-    id:"Assuit"
   },
 ];
 

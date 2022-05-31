@@ -1,18 +1,18 @@
 import type { NextPage } from "next";
 
 // Custom Components
-import Header from "../components/Header";
-import PageContainer from "../components/PageContainer";
-import MainContentArea from "../components/MainContentArea";
+import Header from "../../../components/Header";
+import PageContainer from "../../../components/PageContainer";
+import MainContentArea from "../../../components/MainContentArea";
 
 // Constants.
-import provincesList from "../constants/provincesList";
-import mainAreaCoords from "../constants/provinces/mainArea";
+import provincesList from "../../../constants/provincesList";
+import mainAreaCoords from "../../../constants/provinces/mainArea";
 
 // Images Sources.
-import mainAreaImage from "../images/Egypt_Provinces.jpg";
+import mainAreaImage from "../../../images/Egypt_Provinces.jpg";
 
-const Home: NextPage = () => {
+const AlexProvince: NextPage = () => {
   return (
     <PageContainer>
       <Header headerTitle="الخرائط الجغرافية" />
@@ -28,4 +28,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default AlexProvince;
