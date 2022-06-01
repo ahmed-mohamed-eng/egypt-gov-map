@@ -12,9 +12,6 @@ import mainAreaCoords from "../constants/provinces/mainArea";
 // Images Sources.
 import mainAreaImage from "../images/Egypt_Provinces.jpg";
 
-// Constants.
-import provinces from "../constants/provinces";
-
 const Home: NextPage = () => {
   return (
     <PageContainer>
@@ -22,7 +19,6 @@ const Home: NextPage = () => {
       <MainContentArea
         list={provincesList}
         mapAreas={mainAreaCoords}
-        breadcrumbItems={provinces}
         mapImageSrc={mainAreaImage.src}
         mapImageWidth={235}
         mapImageHeight={204.25}

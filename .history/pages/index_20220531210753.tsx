@@ -20,9 +20,9 @@ const Home: NextPage = () => {
     <PageContainer>
       <Header headerTitle="الخرائط الجغرافية" />
       <MainContentArea
+        breadcrumbItems={provinces}
         list={provincesList}
         mapAreas={mainAreaCoords}
-        breadcrumbItems={provinces}
         mapImageSrc={mainAreaImage.src}
         mapImageWidth={235}
         mapImageHeight={204.25}

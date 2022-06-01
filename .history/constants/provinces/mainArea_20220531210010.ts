@@ -6,8 +6,6 @@ export const enum ProvincesNames {
   ALEX = "ALEX",
   GREATCAIRO = "GREATCAIRO",
   NORTHSAAID = "NORTHSAAID",
-  SOUTHSAAID = "SOUTHSAAID",
-  ASSUIT = "ASSUIT",
 }
 
 const mainAreaCoords: Array<MapAreas> = [
@@ -88,7 +86,7 @@ const mainAreaCoords: Array<MapAreas> = [
       191, 227, 191, 228, 193, 230, 194, 233, 197, 233, 200,
     ],
     active: true,
-    id: ProvincesNames.SOUTHSAAID ,
+    id: "SouthSaaid",
   },
   {
     shape: "poly",
@@ -101,7 +99,7 @@ const mainAreaCoords: Array<MapAreas> = [
       109, 94, 72, 92,
     ],
     active: true,
-    id: ProvincesNames.ASSUIT,
+    id: "Assuit",
   },
 ];
 

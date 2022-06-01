@@ -1,11 +1,7 @@
 import { Flex } from "@chakra-ui/react";
 
-import { useRouter } from "next/router";
-
 import ImageMapper, { MapAreas, Map } from "react-img-mapper";
 
-// Enums
-import { ProvincesNames } from "../../../../constants/provinces/mainArea";
 export interface MapImageProps {
   mapImageSrc: string;
   mapAreas: Array<MapAreas>;
@@ -14,8 +10,6 @@ export interface MapImageProps {
 }
 
 export const MapImage = (props: MapImageProps) => {
-  const router = useRouter();
-
   const MAP: Map = {
     name: "EgyptProvinces",
 
@@ -23,10 +17,7 @@ export const MapImage = (props: MapImageProps) => {
   };
 
   const onClickArea = (area: MapAreas, index: number, event: any): void => {
-    switch (area.id) {
-      case ProvincesNames.ALEX:
-        router.push("/provinces/alexandra");
-    }
+    console.debug('The area you clicked is ', area);
   };
 
   return (

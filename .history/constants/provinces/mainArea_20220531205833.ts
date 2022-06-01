@@ -3,11 +3,6 @@ import { MapAreas } from "react-img-mapper";
 export const enum ProvincesNames {
   NORTH_DELTA = "NORTH_DELTA",
   SINA = "SINA",
-  ALEX = "ALEX",
-  GREATCAIRO = "GREATCAIRO",
-  NORTHSAAID = "NORTHSAAID",
-  SOUTHSAAID = "SOUTHSAAID",
-  ASSUIT = "ASSUIT",
 }
 
 const mainAreaCoords: Array<MapAreas> = [
@@ -31,7 +26,7 @@ const mainAreaCoords: Array<MapAreas> = [
       171, 27, 167, 26, 155, 28,
     ],
     active: true,
-    id: ProvincesNames.SINA,
+    id: ProvincesNames.SINA ,
   },
   {
     shape: "poly",
@@ -43,7 +38,7 @@ const mainAreaCoords: Array<MapAreas> = [
       118, 40, 121, 39, 120, 29, 112, 22,
     ],
     active: true,
-    id: ProvincesNames.ALEX,
+    id: "Alex",
   },
   {
     shape: "poly",
@@ -54,7 +49,7 @@ const mainAreaCoords: Array<MapAreas> = [
       101, 74, 103, 66, 111, 59, 120, 53, 125, 53, 127, 58, 132, 64, 132, 65,
     ],
     active: true,
-    id: ProvincesNames.GREATCAIRO,
+    id: "GreatCairo",
   },
   {
     shape: "poly",
@@ -66,7 +61,7 @@ const mainAreaCoords: Array<MapAreas> = [
       146, 90,
     ],
     active: true,
-    id: ProvincesNames.NORTHSAAID,
+    id: "NorthSaaid",
   },
   {
     shape: "poly",
@@ -88,7 +83,7 @@ const mainAreaCoords: Array<MapAreas> = [
       191, 227, 191, 228, 193, 230, 194, 233, 197, 233, 200,
     ],
     active: true,
-    id: ProvincesNames.SOUTHSAAID ,
+    id: "SouthSaaid",
   },
   {
     shape: "poly",
@@ -101,7 +96,7 @@ const mainAreaCoords: Array<MapAreas> = [
       109, 94, 72, 92,
     ],
     active: true,
-    id: ProvincesNames.ASSUIT,
+    id:"Assuit"
   },
 ];
 
