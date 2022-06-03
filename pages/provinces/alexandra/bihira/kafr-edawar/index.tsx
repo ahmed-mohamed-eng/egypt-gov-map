@@ -1,16 +1,16 @@
 import type { NextPage } from "next";
 
 // Custom Components
-import Header from "../../../../../components/Header";
-import PageContainer from "../../../../../components/PageContainer";
-import MainContentArea from "../../../../../components/MainContentArea";
+import Header from """""components/Header";
+import PageContainer from """""components/PageContainer";
+import MainContentArea from """""components/MainContentArea";
 
 // Constants.
-import provincesList from "../../../../../constants/provincesList";
-import mainAreaCoords from "../../../../../constants/provinces/mainArea";
+import provincesList from """""constants/provincesList";
+import mainAreaCoords from """""constants/provinces/mainArea";
 
 // Images Sources.
-import mainAreaImage from "../../../images/provinces/alexandra/alex_region.jpg";
+import mainAreaImage from """images/provinces/alexandra/alex_region.jpg";
 
 const AlexProvince: NextPage = () => {
   return (

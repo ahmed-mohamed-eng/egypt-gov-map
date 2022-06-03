@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import ImageMapper, { MapAreas, Map } from "react-img-mapper";
 
 // Enums
-import { ProvincesNames } from "../../../../constants/provinces/mainArea";
+import { ProvincesNames } from "constants/provinces/mainArea";
 export interface MapImageProps {
   mapImageSrc: string;
   mapAreas: Array<MapAreas>;

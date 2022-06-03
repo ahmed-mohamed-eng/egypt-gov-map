@@ -1,7 +1,5 @@
 import { Center, Flex, VStack } from "@chakra-ui/react";
 
-// import bgImage from "../../images/backgroundImage.png";
-
 export const PageContainer = (props: any) => {
   return (
     <Flex backgroundImage={`url(/images/backgroundImage.png)`}>
