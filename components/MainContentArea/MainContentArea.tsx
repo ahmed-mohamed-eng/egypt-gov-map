@@ -23,7 +23,10 @@ export const MainContentArea = (props: MainContentAreaProps) => {
       flex="14"
       alignItems={[null, null, null, null, "flex-start"]}
       spacing={["1rem", null, null, null, "0rem"]}
-      flexDirection={[null, null, null, null, "row-reverse"]}
+      flexDirection={{
+        base: "column",
+        xl: "row-reverse",
+      }}
     >
       <MapArea
         breadcrumbItems={props.breadcrumbItems}

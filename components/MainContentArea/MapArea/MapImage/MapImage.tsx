@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, useBreakpointValue } from "@chakra-ui/react";
 
 import { useRouter } from "next/router";
 
@@ -29,15 +29,15 @@ export const MapImage = (props: MapImageProps) => {
     }
   };
 
-  const imageWidths = [];
-  const imageHeights = [];
+  const imageWidth = useBreakpointValue({ base: 235, md: 688, xl: 618, });
+  const imageHeights = useBreakpointValue({ base: 204.25, md: 597.967, xl: 537.133, });
 
   return (
     <Flex w="fit-content">
       <ImageMapper
         src={props.mapImageSrc}
-        width={props.mapImageWidth}
-        height={props.mapImageHeight}
+        width={imageWidth}
+        height={imageHeights}
         onClick={onClickArea}
         map={MAP}
       />
