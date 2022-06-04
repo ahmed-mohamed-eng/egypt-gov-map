@@ -16,20 +16,34 @@ export interface MainContentAreaProps
 
 export const MainContentArea = (props: MainContentAreaProps) => {
   return (
-    <VStack as="main" w="full" p="0.5rem" spacing="1rem" flex="14">
+    <VStack
+      as="main"
+      w="full"
+      p="0.5rem"
+      flex="14"
+      alignItems={[null, null, null, null, "flex-start"]}
+      spacing={["1rem", null, null, null, "0rem"]}
+      flexDirection={[null, null, null, null, "row-reverse"]}
+    >
       <MapArea
-      breadcrumbItems={props.breadcrumbItems}
+        breadcrumbItems={props.breadcrumbItems}
         mapImageHeight={props.mapImageHeight}
         mapImageWidth={props.mapImageWidth}
         mapAreas={props.mapAreas}
         mapImageSrc={props.mapImageSrc}
       />
-      <SearchBox placeholderTxt="للبحث, أدخل الكلمة ثم إضغط إنتر" />
-      <StripeSeparator />
-      <QuickNavigationArea
-        list={props.list}
-        quickNavTitle={props.quickNavTitle}
-      />
+      <VStack
+        w={["full", null, null, null, "40%"]}
+        spacing="1rem"
+        marginLeft={[null, null, null, null, "2rem !important"]}
+      >
+        <SearchBox placeholderTxt="للبحث, أدخل الكلمة ثم إضغط إنتر" />
+        <StripeSeparator />
+        <QuickNavigationArea
+          list={props.list}
+          quickNavTitle={props.quickNavTitle}
+        />
+      </VStack>
     </VStack>
   );
 };

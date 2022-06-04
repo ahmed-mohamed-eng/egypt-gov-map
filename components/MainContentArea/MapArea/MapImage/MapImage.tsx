@@ -29,6 +29,9 @@ export const MapImage = (props: MapImageProps) => {
     }
   };
 
+  const imageWidths = [];
+  const imageHeights = [];
+
   return (
     <Flex w="fit-content">
       <ImageMapper
