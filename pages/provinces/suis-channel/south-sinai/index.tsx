@@ -15,7 +15,7 @@ import mainAreaImage from "images/provinces/alexandra/alex_region.jpg";
 const AlexProvince: NextPage = () => {
   return (
     <PageContainer>
-      <Header headerTitle="اقليم الاسكندرية" />
+      <Header headerTitle="محافظة جنوب سينا" />
       <MainContentArea
       breadcrumbItems={[]}
         list={provincesList}

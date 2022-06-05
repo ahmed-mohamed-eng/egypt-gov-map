@@ -15,10 +15,9 @@ import mainAreaImage from "images/provinces/alexandra/alex_region.jpg";
 const AlexProvince: NextPage = () => {
   return (
     <PageContainer>
-      <Header headerTitle="اقليم الاسكندرية" />
+      <Header headerTitle="محافظة الاسكندرية" />
       <MainContentArea
-      breadcrumbItems={[]}
-
+        breadcrumbItems={[]}
         list={provincesList}
         mapAreas={mainAreaCoords}
         mapImageSrc={mainAreaImage.src}
