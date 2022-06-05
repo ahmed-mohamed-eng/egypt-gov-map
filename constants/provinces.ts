@@ -3,19 +3,19 @@ import { BreadcrumbElement } from "../components/MainContentArea/MapArea/MapInfo
 const provinces: Array<BreadcrumbElement> = [
   {
     text: "اقليم اسيوط",
-    url: "#",
+    url: "/provinces/greate-cairo",
   },
   {
     text: "اقليم جنوب الصعيد",
-    url: "#",
+    url: "/provinces/south-saaid",
   },
   {
     text: "اقليم شمال الصعيد",
-    url: "#",
+    url: "/provinces/north-saaid",
   },
   {
     text: "اقليم القاهر الكبرى",
-    url: "#",
+    url: "/provinces/greate-cairo",
   },
   {
     text: "اقليم الاسكندرية",
@@ -23,11 +23,11 @@ const provinces: Array<BreadcrumbElement> = [
   },
   {
     text: "اقليم قناه السويس",
-    url: "#",
+    url: "/provinces/suis-channel",
   },
   {
     text: "اقليم الدلتا",
-    url: "#",
+    url: "/provinces/delta",
   },
 ];
 

@@ -1,4 +1,5 @@
 import { VStack, Heading } from "@chakra-ui/react";
+import { useRouter } from "next/router";
 
 import CitiesList from "./CitiesList";
 
@@ -10,8 +11,14 @@ export interface QuickNavigationAreaProps extends CitiesListProps {
 }
 
 export const QuickNavigationArea = (props: QuickNavigationAreaProps) => {
+  const router = useRouter();
+
+  const onGoToHomePage = () => {
+    router.push("/");
+  };
+
   return (
-    <VStack w="full" spacing="1rem" px="0.25rem">
+    <VStack w="full" spacing="1rem" px="0.25rem" onClick={onGoToHomePage}>
       <Heading
         w="full"
         h="fit-content"

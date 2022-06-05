@@ -3,45 +3,45 @@ import { province } from "../components/MainContentArea/QuickNavigationArea/Citi
 const provincesList: Array<province> = [
   {
     provinceName: "اقليم القاهرة الكبرى",
-    url: "#",
+    url: "/provinces/greate-cairo",
     childItems: [
       {
         cityName: "محافظة الجيزة",
-        url: "#",
+        url: "/provinces/greate-cairo/giza",
       },
       {
         cityName: "محافظة القليوبية",
-        url: "#",
+        url: "/provinces/greate-cairo/qaliobia",
       },
       {
         cityName: "محافظة القاهرة",
-        url: "#",
+        url: "/provinces/greate-cairo/cairo",
       },
     ],
   },
   {
     provinceName: "اقليم الدلتا",
-    url: "#",
+    url: "/provinces/delta",
     childItems: [
       {
         cityName: "محافظة المنوفية",
-        url: "#",
+        url: "/provinces/delta/monfia",
       },
       {
         cityName: "محافظة الغربية",
-        url: "#",
+        url: "/provinces/delta/gharbia",
       },
       {
         cityName: "محافظة الدقهلية",
-        url: "#",
+        url: "/provinces/delta/dakhlia",
       },
       {
         cityName: "محافظة دمياط",
-        url: "#",
+        url: "/provinces/delta/domiat",
       },
       {
         cityName: "محافظة كفرالشيخ",
-        url: "#",
+        url: "/provinces/delta/kafr-elshikh",
       },
     ],
   },
@@ -51,103 +51,103 @@ const provincesList: Array<province> = [
     childItems: [
       {
         cityName: "محافظة مطروح",
-        url: "#",
+        url: "/provinces/alexandra/matroh",
       },
       {
         cityName: "محافظة البحيرة",
-        url: "#",
+        url: "/provinces/alexandra/bihira",
       },
       {
         cityName: "محافظة الاسكندرية",
-        url: "#",
+        url: "/provinces/alexandra/alex",
       },
     ],
   },
   {
     provinceName: "اقليم شمال الصعيد",
-    url: "#",
+    url: "/provinces/north-saaid",
     childItems: [
       {
         cityName: "محافظة بني سويف",
-        url: "#",
+        url: "/provinces/north-saaid/bani-soef",
       },
       {
         cityName: "محافظة الفيوم",
-        url: "#",
+        url: "/provinces/north-saaid/faioom",
       },
       {
         cityName: "محافظة المنيا",
-        url: "#",
+        url: "/provinces/north-saaid/miniaa",
       },
     ],
   },
   {
     provinceName: "اقليم جنوب الصعيد",
-    url: "#",
+    url: "/provinces/south-saaid",
     childItems: [
       {
         cityName: "محافظة قنا",
-        url: "#",
+        url: "/provinces/south-saaid/qinaa",
       },
       {
         cityName: "محافظة الاقصر",
-        url: "#",
+        url: "/provinces/south-saaid/eloksor",
       },
       {
         cityName: "محافظة اسوان",
-        url: "#",
+        url: "/provinces/south-saaid/aswan",
       },
       {
         cityName: "محافظة سوهاج",
-        url: "#",
+        url: "/provinces/south-saaid/sohag",
       },
       {
         cityName: "محافظة البحر الاحمر",
-        url: "#",
+        url: "/provinces/south-saaid/red-sea",
       },
     ],
   },
   {
     provinceName: "اقليم قناه السويس",
-    url: "#",
+    url: "/provinces/suis-channel",
     childItems: [
       {
         cityName: "محافظة الشرقية",
-        url: "#",
+        url: "/provinces/suis-channel/elsharqia",
       },
       {
         cityName: "محافظة بور سعيد",
-        url: "#",
+        url: "/provinces/suis-channel/borsaid",
       },
       {
         cityName: "محافظة شمال سيناء",
-        url: "#",
+        url: "/provinces/suis-channel/north-sinai",
       },
       {
         cityName: "محافظة جنوب سيناء",
-        url: "#",
+        url: "/provinces/suis-channel/south-sinai",
       },
       {
         cityName: "محافظة الاسماعيلية",
-        url: "#",
+        url: "/provinces/suis-channel/elesmailia",
       },
       {
         cityName: "محافظة السويس",
-        url: "#",
+        url: "/provinces/suis-channel/elswais",
       },
     ],
   },
   {
     provinceName: "اقليم اسيوط",
-    url: "#",
+    url: "/provinces/assuit",
     childItems: [
       {
         cityName: "محافظة اسيوط",
-        url: "#",
+        url: "/provinces/assuit/assuit-gov",
       },
       {
         cityName: "محافظة الوادي الجديد",
-        url: "#",
+        url: "/provinces/assuit/elwady-eljadid",
       },
     ],
   },
