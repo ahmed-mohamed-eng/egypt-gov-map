@@ -22,7 +22,7 @@ export const MapArea = (props: MapAreaProps) => {
       borderBottom="4px solid #ef3636"
       p="0.5rem"
       w="full"
-      h={[null, null, null, null, "50vw"]}
+      h={[null, null, null, null, "fit-content"]}
       spacing="0.5rem"
     >
       <MapImage

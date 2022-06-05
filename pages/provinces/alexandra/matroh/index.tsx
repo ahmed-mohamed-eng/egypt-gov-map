@@ -12,12 +12,15 @@ import mainAreaCoords from "constants/provinces/mainArea";
 // Images Sources.
 import mainAreaImage from "images/provinces/alexandra/alex_region.jpg";
 
+// Constants.
+import MatroohDepartmentList from "constants/provinces/alexandra/matroh";
+
 const AlexProvince: NextPage = () => {
   return (
     <PageContainer>
       <Header headerTitle="محافظة مطروح" />
       <MainContentArea
-      breadcrumbItems={[]}
+      breadcrumbItems={MatroohDepartmentList}
         list={provincesList}
         mapAreas={mainAreaCoords}
         mapImageSrc={mainAreaImage.src}

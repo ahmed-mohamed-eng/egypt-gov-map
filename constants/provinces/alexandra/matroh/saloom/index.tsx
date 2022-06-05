@@ -13,14 +13,14 @@ import mainAreaCoords from "constants/provinces/mainArea";
 import mainAreaImage from "images/provinces/alexandra/alex_region.jpg";
 
 // Constants.
-import AlexGovList from "constants/provinces/alexandra";
+import MatroohDepartmentList from "constants/provinces/alexandra/matroh";
 
 const AlexProvince: NextPage = () => {
   return (
     <PageContainer>
-      <Header headerTitle="اقليم الاسكندرية" />
+      <Header headerTitle="السلوم" />
       <MainContentArea
-        breadcrumbItems={AlexGovList}
+      breadcrumbItems={MatroohDepartmentList}
         list={provincesList}
         mapAreas={mainAreaCoords}
         mapImageSrc={mainAreaImage.src}
