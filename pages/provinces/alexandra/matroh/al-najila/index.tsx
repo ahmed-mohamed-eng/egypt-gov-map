@@ -12,12 +12,15 @@ import mainAreaCoords from "constants/provinces/mainArea";
 // Images Sources.
 import mainAreaImage from "images/provinces/alexandra/alex_region.jpg";
 
-const AlexProvince: NextPage = () => {
+// Constants.
+import alNajilaDepartmentList from "constants/provinces/alexandra/matroh/al-najila";
+
+const AlNajilaDepartment: NextPage = () => {
   return (
     <PageContainer>
-      <Header headerTitle="اقليم الاسكندرية" />
+      <Header headerTitle="النجيلة" />
       <MainContentArea
-      breadcrumbItems={[]}
+        breadcrumbItems={alNajilaDepartmentList}
         list={provincesList}
         mapAreas={mainAreaCoords}
         mapImageSrc={mainAreaImage.src}
@@ -29,4 +32,4 @@ const AlexProvince: NextPage = () => {
   );
 };
 
-export default AlexProvince;
+export default AlNajilaDepartment;

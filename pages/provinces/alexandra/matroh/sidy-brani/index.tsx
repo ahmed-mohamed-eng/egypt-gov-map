@@ -8,16 +8,17 @@ import MainContentArea from "components/MainContentArea";
 // Constants.
 import provincesList from "constants/provincesList";
 import mainAreaCoords from "constants/provinces/mainArea";
+import sidyBraniDepartmentList from "constants/provinces/alexandra/matroh/sidy-brani";
 
 // Images Sources.
 import mainAreaImage from "images/provinces/alexandra/alex_region.jpg";
 
-const AlexProvince: NextPage = () => {
+const SidyBraniDepartment: NextPage = () => {
   return (
     <PageContainer>
-      <Header headerTitle="اقليم الاسكندرية" />
+      <Header headerTitle="سيدي براني" />
       <MainContentArea
-      breadcrumbItems={[]}
+      breadcrumbItems={sidyBraniDepartmentList}
         list={provincesList}
         mapAreas={mainAreaCoords}
         mapImageSrc={mainAreaImage.src}
@@ -29,4 +30,4 @@ const AlexProvince: NextPage = () => {
   );
 };
 
-export default AlexProvince;
+export default SidyBraniDepartment;

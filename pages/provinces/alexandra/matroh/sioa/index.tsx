@@ -13,14 +13,14 @@ import mainAreaCoords from "constants/provinces/mainArea";
 import mainAreaImage from "images/provinces/alexandra/alex_region.jpg";
 
 // Constants.
-import MatroohDepartmentList from "constants/provinces/alexandra/matroh";
+import sioaDepartmentList from "constants/provinces/alexandra/matroh/sioa";
 
-const AlexProvince: NextPage = () => {
+const SioaDepartmentList: NextPage = () => {
   return (
     <PageContainer>
-      <Header headerTitle="السلوم" />
+      <Header headerTitle="سيوة" />
       <MainContentArea
-      breadcrumbItems={MatroohDepartmentList}
+        breadcrumbItems={sioaDepartmentList}
         list={provincesList}
         mapAreas={mainAreaCoords}
         mapImageSrc={mainAreaImage.src}
@@ -32,4 +32,4 @@ const AlexProvince: NextPage = () => {
   );
 };
 
-export default AlexProvince;
+export default SioaDepartmentList;
