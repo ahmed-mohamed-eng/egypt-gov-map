@@ -13,12 +13,12 @@ import mainAreaCoords from "constants/provinces/mainArea";
 import mainAreaImage from "images/provinces/alexandra/alex_region.jpg";
 
 // Constants.
-import subCitiesList from "constants/provinces/alexandra/matroh/hamam";
+import subCitiesList from "constants/provinces/suis-channel/north-sinai/rafah-city";
 
 const City: NextPage = () => {
   return (
     <PageContainer>
-      <Header headerTitle="" />
+      <Header headerTitle="مدينة رفح" />
       <MainContentArea
         breadcrumbItems={subCitiesList}
         list={provincesList}

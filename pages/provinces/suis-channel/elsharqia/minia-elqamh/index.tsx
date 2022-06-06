@@ -13,12 +13,12 @@ import mainAreaCoords from "constants/provinces/mainArea";
 import mainAreaImage from "images/provinces/alexandra/alex_region.jpg";
 
 // Constants.
-import subCitiesList from "constants/provinces/alexandra/matroh/hamam";
+import subCitiesList from "constants/provinces/suis-channel/elsharqia/minia-elqamh";
 
 const City: NextPage = () => {
   return (
     <PageContainer>
-      <Header headerTitle="" />
+      <Header headerTitle="منيا القمح" />
       <MainContentArea
         breadcrumbItems={subCitiesList}
         list={provincesList}
