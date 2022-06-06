@@ -18,7 +18,7 @@ import subCitiesList from "constants/provinces/alexandra/alex/hay-alamria";
 const City: NextPage = () => {
   return (
     <PageContainer>
-      <Header headerTitle="" />
+      <Header headerTitle="حي العامرية" />
       <MainContentArea
         breadcrumbItems={subCitiesList}
         list={provincesList}
